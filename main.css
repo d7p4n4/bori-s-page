@@ -49,8 +49,8 @@ table {
 
 header {
   width: 100vw;
-  height: 100vh;
-  background-image: url(assets/header-backg.jpg);
+  height: calc(100vh - 8rem);
+     background-image: url(assets/header-backg.jpg);
   background-size: cover;
   background-position: center center;
   position: relative;
@@ -62,7 +62,7 @@ header {
   height: auto;
   position: absolute;
   left: 15vw;
-  top: calc(50vh - 35vh);
+  top: calc(50vh - 25vh);
   padding: 1.5rem;
   background-color: rgba(50,60,76,.8);
   color: lightgrey;
@@ -120,31 +120,19 @@ li {
   padding: 1rem 1rem 0;
 }
 
+.btns {
+  position: relative;
+}
+
 .btn {
-  position: absolute;
+  position: relative;
   width: 100vw;
   height: 2rem;
   text-align: center;
   padding-top: 0.5rem;
   color: lightgray;
-  background-color: rgba(50,60,75,.8);
+  background-color: rgba(50,60,75,1);
   font-family: "Abril Fatface"
-}
-
-.intro {
-  bottom: 0;
-}
-
-.slam {
-  bottom: 2rem;
-}
-
-.pics {
-  bottom: 4rem;
-}
-
-.poems {
-  bottom: 6rem;
 }
 
 .btn:hover {
@@ -158,6 +146,5 @@ li {
 }
 
 .hidden {
-  top: calc(-100vh + 8rem);
-  position: absolute;
+  display: none;
 }
