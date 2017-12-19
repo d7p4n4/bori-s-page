@@ -42,3 +42,14 @@
   display: block;
   margin-top: 8rem;
 }
+
+.back {
+  position: absolute;
+  color: lightgrey;
+  padding: 0.5rem;
+}
+
+.back:hover {
+  transform: scale(1.5);
+  color: lightslategrey;
+}
