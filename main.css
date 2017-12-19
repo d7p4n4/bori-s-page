@@ -151,3 +151,13 @@ li {
   background-color: lightgrey;
   color: rgba(50,60,75,.8);
 }
+
+.btns div.active {
+    background-color: lightgrey;
+  color: rgba(50,60,75,.8);
+}
+
+.hidden {
+  top: calc(-100vh + 8rem);
+  position: absolute;
+}

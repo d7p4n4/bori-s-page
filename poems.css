@@ -4,7 +4,7 @@
   padding: 2rem;
   background-color: rgba(35,45,60,.97);
   text-align: center;
-  display: non;
+  display: none;
 }
 
 .poems-h1 {
@@ -36,4 +36,9 @@
   font-family: "Roboto Mono";
   font-size: 0.8rem;
   line-height: 1rem;
+}
+
+.active {
+  display: block;
+  margin-top: 8rem;
 }
