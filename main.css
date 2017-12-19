@@ -57,7 +57,7 @@ header {
   z-index: 1;
 }
 
-.intro {
+.info {
   width: 70vw;
   height: auto;
   position: absolute;
@@ -69,14 +69,9 @@ header {
   border-radius: 2rem;
 }
 
-.intro-title {
-  font-family: "Roboto Mono";
-  font-size: 0.8rem;
-}
-
 .name {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-family: "Abril Fatface";
   padding-bottom: 1rem;
   padding-top: 1rem;
@@ -85,17 +80,74 @@ header {
 .skills {
   font-family: "Abril Fatface";
   text-align: center;
+  font-size: 1rem;
 }
 
 .prof-pic {
-  width: 28vw;
-  max-width: 100px;
+  width: 100px;
   position: absolute;
   top: -65px;
   border-radius: 50%;
-  left: calc(50% - 14vw);
+  left: calc(50% - 50px);
 }
 
 hr {
   margin: 1rem -0.5rem;
+}
+
+.contact {
+  font-family: "Abril Fatface";
+  text-align: center;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+li:hover {
+  transform: scale(1.5);
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  font-size: 2rem;
+  padding: 1rem 1rem 0;
+}
+
+.btn {
+  position: absolute;
+  width: 100vw;
+  height: 2rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  color: lightgray;
+  background-color: rgba(50,60,75,.8);
+  font-family: "Abril Fatface"
+}
+
+.intro {
+  bottom: 0;
+}
+
+.slam {
+  bottom: 2rem;
+}
+
+.pics {
+  bottom: 4rem;
+}
+
+.poems {
+  bottom: 6rem;
+}
+
+.btn:hover {
+  background-color: lightgrey;
+  color: rgba(50,60,75,.8);
 }

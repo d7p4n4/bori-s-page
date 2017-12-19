@@ -1,0 +1,39 @@
+.poems-wrapper {
+  width: 100vw;
+  height: auto;
+  padding: 2rem;
+  background-color: rgba(35,45,60,.97);
+  text-align: center;
+  display: non;
+}
+
+.poems-h1 {
+  color: lightgrey;
+  font-family: "Abril Fatface";
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.poems-cont {
+  position: relative;
+  height:auto;
+  width: 80vw;
+  background-color: rgb(50,60,76);
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.poem-h1 {
+  padding: 1rem;
+  color: lightgrey;
+  font-family: "Abril Fatface";
+  text-align: center;
+}
+
+.poem {
+  padding: 0 1rem 1rem 1rem;
+  color: lightgrey;
+  font-family: "Roboto Mono";
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
