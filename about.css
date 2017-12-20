@@ -1,0 +1,57 @@
+.about-wrapper {
+  width: 100vw;
+  height: auto;
+  padding: 2rem;
+  background-color: rgba(35,45,60,.97);
+  text-align: center;
+  display: none;
+}
+
+.about-title {
+  color: lightgrey;
+  font-family: "Poppins";
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.about-cont, .about-pics-wrapper {
+  position: relative;
+  height:auto;
+  width: 80vw;
+  background-color: rgb(50,60,76);
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.about-h1, .about-pics-h1 {
+  padding: 1rem;
+  color: lightgrey;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.about-text {
+  padding: 0 1rem 1rem 1rem;
+  color: lightgrey;
+  font-family: "Dosis";
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+
+.about-pics {
+  width: 60vw;
+  height: auto;
+  position: relative;
+  left: 10vw;
+  margin: 1rem 0 1rem 0;
+  padding: 2px;
+  transition: all 1s ease-in-out;
+}
+
+.about-pics:hover {
+  border: 2px solid lightgrey;
+  width: 80vw;
+  height: auto;
+  margin: 0;
+  left: 0;
+}
