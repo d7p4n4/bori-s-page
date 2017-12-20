@@ -23,4 +23,24 @@ var btnClass = $(this).attr("rel");
       
     })
   })
+  
+  /* slam */
+  
+    var sumClick = 0;
+  
+$('.info-btn').on('click', function() {
+  var panelClass = $(this).attr('rel');
+  
+  if (sumClick === 0) {
+    sumClick++
+  $('.' + panelClass).slideDown(500, function() {
+    $(this).addClass('active');
+  });
+  } else {
+    sumClick--
+  $('.' + panelClass).slideUp(500, function() {
+    $(this).removeClass('active');
+  });
+  }
+});
 }
