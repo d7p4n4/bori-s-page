@@ -9,7 +9,7 @@
 
 .poems-h1 {
   color: lightgrey;
-  font-family: "Abril Fatface";
+  font-family: "Poppins";
   font-size: 1.5rem;
   padding-bottom: 2rem;
 }
@@ -26,14 +26,14 @@
 .poem-h1 {
   padding: 1rem;
   color: lightgrey;
-  font-family: "Abril Fatface";
+  font-family: "Poppins";
   text-align: center;
 }
 
 .poem {
   padding: 0 1rem 1rem 1rem;
   color: lightgrey;
-  font-family: "Roboto Mono";
+  font-family: "Dosis";
   font-size: 0.8rem;
   line-height: 1rem;
 }

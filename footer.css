@@ -1,0 +1,23 @@
+footer {
+  width: 100vw;
+  height: 4rem;
+  text-align: center;
+  background-color: rgba(100,110,186,.4);
+  margin: 0 0 -2rem -2rem;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  font-family: Dosis;
+  font-size: 0.8rem;
+  color: lightgrey;
+}
+
+.copyr {
+  color: lightblue;
+  font-weight: bold;
+  line-height: 1rem;
+}
+
+.copyr:hover {
+  color: aqua;
+}

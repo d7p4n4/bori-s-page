@@ -1,0 +1,71 @@
+/* video bootstrap */
+
+.embed-responsive {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+.embed-responsive .embed-responsive-item,
+.embed-responsive iframe,
+.embed-responsive embed,
+.embed-responsive object,
+.embed-responsive video {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.embed-responsive-16by9 {
+  padding-bottom: 56.25%;
+}
+.embed-responsive-4by3 {
+  padding-bottom: 75%;
+}
+
+/* other css */
+
+.slam-wrapper {
+  width: 100vw;
+  height: auto;
+  padding: 2rem;
+  background-color: rgba(35,45,60,.97);
+  text-align: center;
+  display: nne;
+}
+
+.slam-title {
+  color: lightgrey;
+  font-family: "Poppins";
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.slam-info {
+  position: relative;
+  height:auto;
+  width: 80vw;
+  background-color: rgb(50,60,76);
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.slam-h1, .video-title {
+  padding: 1rem;
+  color: lightgrey;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.slam-intro {
+  padding: 0 1rem 1rem 1rem;
+  color: lightgrey;
+  font-family: "Dosis";
+  font-size: 0.8rem;
+  line-height: 1rem;
+}

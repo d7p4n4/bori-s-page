@@ -72,13 +72,13 @@ header {
 .name {
   text-align: center;
   font-size: 1.5rem;
-  font-family: "Abril Fatface";
+  font-family: "Poppins";
   padding-bottom: 1rem;
   padding-top: 1rem;
 }
 
 .skills {
-  font-family: "Abril Fatface";
+  font-family: "Poppins";
   text-align: center;
   font-size: 1rem;
 }
@@ -96,7 +96,7 @@ hr {
 }
 
 .contact {
-  font-family: "Abril Fatface";
+  font-family: "Poppins";
   text-align: center;
   font-size: 1rem;
 }
@@ -132,7 +132,7 @@ li {
   padding-top: 0.5rem;
   color: lightgray;
   background-color: rgba(50,60,75,1);
-  font-family: "Abril Fatface"
+  font-family: "Poppins"
 }
 
 .btn:hover {
