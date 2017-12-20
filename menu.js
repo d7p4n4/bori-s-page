@@ -1,15 +1,22 @@
 window.onload = function() {
   
   $('.btn').on('click', function() {
+    
+    $('.btns div.active').removeClass('active');
 
 var btnClass = $(this).attr("rel");
+    
     $(this).addClass('active');
     $('.' + btnClass).slideDown(2000, function() {
       $(this).addClass('active');
     });
-    $('header').slideUp(2000, function() {
-    $('header').addClass('hidden');
+      $('header').slideUp(2000, function() {
+        $('header').addClass('hidden');
   });
+    $('div.wrapper.active').slideUp(2000, function() {
+      $(this).removeClass('active');
+    });
+    
   });
   
   $('.back').on('click', function(){
