@@ -148,3 +148,23 @@ li {
 .hidden {
   display: none;
 }
+
+@media (min-width: 720px) {
+  .btn {
+    width: 25%;
+    height: 3rem;
+    display: inline-block;
+    margin: 0;
+    padding-top: 0.85rem;
+    float: left;
+    font-size: 1.3rem;
+  }
+  
+  header {
+    height: calc(100vh - 3rem);
+  }
+  
+  .info {
+    top: 20vh;
+  }
+}

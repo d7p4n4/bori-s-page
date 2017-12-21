@@ -7,13 +7,13 @@ window.onload = function() {
 var btnClass = $(this).attr("rel");
     
     $(this).addClass('active');
-    $('.' + btnClass).slideDown(2000, function() {
+    $('.' + btnClass).slideDown(1000, function() {
       $(this).addClass('active');
     });
-      $('header').slideUp(2000, function() {
+      $('header').slideUp(1000, function() {
         $('header').addClass('hidden');
   });
-    $('div.wrapper.active').slideUp(2000, function() {
+    $('div.wrapper.active').slideUp(1000, function() {
       $(this).removeClass('active');
     });
     
@@ -21,10 +21,10 @@ var btnClass = $(this).attr("rel");
   
   $('.back').on('click', function(){
     var btnBack = $(this).attr('rel');
-    $('.' + btnBack).slideUp(2000, function() {
+    $('.' + btnBack).slideUp(1000, function() {
       $(this).removeClass('active');
     });
-    $('header').slideDown(2000, function() {
+    $('header').slideDown(1000, function() {
       $('header').removeClass('hidden');
       $('.btn').removeClass('active');
       

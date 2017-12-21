@@ -5,6 +5,7 @@
   background-color: rgba(35,45,60,.97);
   text-align: center;
   display: none;
+  position: absolute;
 }
 
 .poems-h1 {
@@ -51,4 +52,40 @@
 .back:hover {
   transform: scale(1.5);
   color: lightslategrey;
+}
+
+@media (min-width: 720px) {
+  .poems-cont {
+    width: calc(90vw - 4rem);
+    left: 5vw;
+  }
+  
+  .wrapper {
+    position: absolute;
+    top: 3rem;
+  }
+  
+  .poems-h1 {
+    font-size: 1.7rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .poem-h1 {
+    font-size: 1.2rem;
+  }
+  
+  .poem {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+  
+  .poems-cont {
+    padding: 1.2rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .back {
+    font-size: 1.2rem;
+    left: calc(5vw + 2rem);
+  }
 }
