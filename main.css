@@ -163,13 +163,10 @@ li {
   
   header {
     height: calc(100vh - 3rem);
+    min-height: 300px;
   }
   
   .info {
     top: 20vh;
-  }
-  
-  .header {
-    min-height: 300px;
   }
 }
