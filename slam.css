@@ -15,10 +15,11 @@
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 0;
-  width: 100%;
+  left: calc(10vw - 2rem);
+  width: 80vw;
   height: 100%;
   border: 0;
+
 }
 .embed-responsive-16by9 {
   padding-bottom: 56.25%;
@@ -52,6 +53,7 @@
   background-color: rgb(50,60,76);
   text-align: left;
   margin-bottom: 2rem;
+  left: calc(10vw - 2rem);
 }
 
 .slam-h1, .video-title {
@@ -83,6 +85,8 @@
   border-radius: 0 0 10px 10px;
   color: lightgrey;
   font-family: Dosis;
+  position: relative;
+  left: calc(10vw - 2rem);
 }
 
 .info-btn:hover {
@@ -103,6 +107,9 @@
   font-size: 0.8rem;
   line-height: 1rem;
   display: none;
+  width: 80vw;
+  position: relative;
+  left: calc(10vw - 2rem);
 }
 
 .youtube {
@@ -120,4 +127,50 @@
 
 .active {
   display: block;
+}
+
+@media (min-width: 720px) {
+  
+  .wrapper {
+    position: absolute;
+    top: 3rem;
+  }
+  
+  .poems-h1, .slam-title, .about-title {
+    font-size: 1.7rem;
+    margin-bottom: 2.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .poem-h1, .slam-h1, .video-title, .about-h1, .about-pics-h1 {
+    font-size: 1.2rem;
+  }
+  
+  .poem, .slam-intro {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+  
+  .poems-cont {
+    padding: 1.2rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .back {
+    font-size: 1.2rem;
+    left: calc(5vw + 2rem);
+  }
+  
+  .info-btn {
+    position: relative;
+    font-size: 1.4rem;
+    height: 2rem;
+    width: 7rem;
+  }
+  
+  .panel {
+    position: relative;
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
 }

@@ -50,6 +50,7 @@ table {
 header {
   width: 100vw;
   height: calc(100vh - 8rem);
+  min-height: 400px;
      background-image: url(assets/header-backg.jpg);
   background-size: cover;
   background-position: center center;
@@ -166,5 +167,9 @@ li {
   
   .info {
     top: 20vh;
+  }
+  
+  .header {
+    min-height: 300px;
   }
 }

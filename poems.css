@@ -22,6 +22,7 @@
   background-color: rgb(50,60,76);
   text-align: left;
   margin-bottom: 2rem;
+  left: calc(10vw - 2rem);
 }
 
 .poem-h1 {
@@ -55,11 +56,6 @@
 }
 
 @media (min-width: 720px) {
-  .poems-cont {
-    width: calc(90vw - 4rem);
-    left: 5vw;
-  }
-  
   .wrapper {
     position: absolute;
     top: 3rem;

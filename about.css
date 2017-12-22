@@ -1,4 +1,4 @@
-.about-wrapper {
+.wrapper {
   width: 100vw;
   height: auto;
   padding: 2rem;
@@ -16,11 +16,12 @@
 
 .about-cont, .about-pics-wrapper {
   position: relative;
-  height:auto;
+  height: auto;
   width: 80vw;
   background-color: rgb(50,60,76);
   text-align: left;
   margin-bottom: 2rem;
+  left: calc(10vw - 2rem);
 }
 
 .about-h1, .about-pics-h1 {
@@ -43,7 +44,7 @@
   height: auto;
   position: relative;
   left: 10vw;
-  margin: 1rem 0 1rem 0;
+  margin: 2rem 0 2rem 0;
   padding: 2px;
   transition: all 1s ease-in-out;
 }
@@ -54,4 +55,11 @@
   height: auto;
   margin: 0;
   left: 0;
+}
+
+@media (min-width: 720px) {
+  .about-text {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
 }
