@@ -50,16 +50,17 @@ table {
 header {
   width: 100vw;
   height: calc(100vh - 8rem);
-  min-height: 400px;
      background-image: url(assets/header-backg.jpg);
   background-size: cover;
   background-position: center center;
   position: relative;
   z-index: 1;
+  text-align: center;
 }
 
 .info {
   width: 70vw;
+  max-width: 500px;
   height: auto;
   position: absolute;
   left: 15vw;
@@ -163,10 +164,10 @@ li {
   
   header {
     height: calc(100vh - 3rem);
-    min-height: 300px;
   }
   
   .info {
     top: 20vh;
+    left: calc(50vw - 250px);
   }
 }
