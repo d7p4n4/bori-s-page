@@ -50,4 +50,22 @@ $('.info-btn').on('click', function() {
   });
   }
 });
+
+/* pics */
+
+var wHeight = $('.pics-cont').height();
+  var minus = 8;
+  var pageNum = 1;
+
+$('.next-btn').on('click', function() {
+  pageNum++;
+  $('.moving-wrapper').css('margin-top', '-=' + (wHeight + minus));
+  $('.page-number').html(pageNum);
+});
+  
+$('.previous-btn').on('click', function() {
+  pageNum--;
+  $('.moving-wrapper').css('margin-top', '+=' + (wHeight + minus));
+   $('.page-number').html(pageNum);
+})
 }
