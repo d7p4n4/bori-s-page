@@ -116,6 +116,14 @@
   left: calc(50% - 1.5rem);
 }
 
+.pic-end {
+  color: lightgrey;
+  font-family: Dosis;
+  position: relative;
+  font-size: 1rem;
+  bottom: -1rem;
+}
+
 @media (min-width: 720px) {
   .pics-cont {
     padding: 1rem;
