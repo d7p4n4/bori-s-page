@@ -2,7 +2,7 @@
   width: 100vw;
   height: auto;
   padding: 2rem;
-  background-color: rgba(35,45,60,.97);
+  background-color: rgba(35,45,60,1);
   text-align: center;
   display: none;
 }

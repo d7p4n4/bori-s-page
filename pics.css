@@ -2,7 +2,7 @@
   width: 100vw;
   height: auto;
   padding: 2rem;
-  background-color: rgba(35,45,60,.97);
+  background-color: rgba(35,45,60,1);
   text-align: center;
   display: none;
   overflow: hidden;
@@ -66,11 +66,6 @@
   transition: all 0.5s ease-in-out;
 }
 
-.pics-pic:hover {
-  border: 2px solid aqua;
-  transform: scale(1.1);
-}
-
 .pics-navbar {
   width: 80vw;
   height: 3rem;
@@ -116,12 +111,48 @@
   left: calc(50% - 1.5rem);
 }
 
-.pic-end {
-  color: lightgrey;
-  font-family: Dosis;
+.pics-pic:hover {
+  border: 2px solid aqua;
+  transform: scale(1.1);
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.9);
+  z-index: 10000;
+  top: 0;
+  left: 0;
+}
+
+.overlay-img {
+  max-width: 80vw;
+  top: 10rem;
   position: relative;
-  font-size: 1rem;
-  bottom: -1rem;
+  left: 10vw;
+  display: none;
+}
+
+.overlay-hidden {
+  display: none;
+}
+
+.esc-btn {
+  color: lightgrey;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  font-size: 2rem;
+  font-family: Poppins;
+  width: 2rem;
+  border-bottom: 2px solid lightgrey;
+
+}
+
+.esc-btn:hover {
+  color: aqua;
+  border-bottom: 2px solid aqua;
 }
 
 @media (min-width: 720px) {

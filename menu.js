@@ -68,4 +68,21 @@ $('.previous-btn').on('click', function() {
   $('.moving-wrapper').css('margin-top', '+=' + (wHeight + minus));
    $('.page-number').html(pageNum);
 })
+  
+  $('.pic-cont').on('click', function() {
+   var picNum = $(this).attr('rel');
+    
+   $('.overlay').fadeIn(1000, function() {
+      $(this).removeClass('overlay-hidden');
+    })
+    $('.' + picNum).css('display', 'flex');
+  })
+    
+    
+    $('.esc-btn').on('click', function() {
+      $('.overlay').fadeOut(1000, function() {
+        $(this).addClass('overlay-hidden');
+      })
+      $('.overlay-img').css('display', 'none');
+    })
 }

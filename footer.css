@@ -10,6 +10,7 @@ footer {
   font-family: Dosis;
   font-size: 0.8rem;
   color: lightgrey;
+  z-index: 20000;
 }
 
 .copyr {
