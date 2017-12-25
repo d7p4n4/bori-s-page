@@ -22,3 +22,10 @@ footer {
 .copyr:hover {
   color: aqua;
 }
+
+@media (min-width: 1200px) {
+  footer {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+}

@@ -85,3 +85,29 @@
     left: calc(5vw + 2rem);
   }
 }
+
+@media (min-width: 1200px) {
+  .poems-h1 {
+    font-size: 2rem;
+  }
+  
+  .poem-h1 {
+    font-size: 1.5rem;
+  }
+  
+  .poems-cont {
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+    max-width: 800px;
+    left: calc(50vw - 400px)
+  }
+  
+  .poem {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+  }
+  
+  .back {
+    font-size: 1.5rem;
+  }
+}

@@ -3,10 +3,10 @@ window.onload = function() {
   $('.btn').on('click', function() {
     
     $('.btns div.active').removeClass('active');
+    $(this).addClass('active');
 
 var btnClass = $(this).attr("rel");
     
-    $(this).addClass('active');
     $('.' + btnClass).slideDown(1000, function() {
       $(this).addClass('active');
     });

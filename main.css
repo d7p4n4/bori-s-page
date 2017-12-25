@@ -108,8 +108,9 @@ a {
   color: lightgrey;
 }
 
-li:hover {
+ .fa-facebook-square:hover, .fa-tumblr-square:hover {
   transform: scale(1.5);
+  color: aqua;
 }
 
 ul {
@@ -151,6 +152,7 @@ li {
   display: none;
 }
 
+
 @media (min-width: 720px) {
   .btn {
     width: 25%;
@@ -169,5 +171,45 @@ li {
   .info {
     top: 20vh;
     left: calc(50vw - 250px);
+  }
+  
+  .name {
+    font-size: 1.7rem;
+  }
+  
+  .skills {
+    font-size: 1.2rem;
+  }
+  
+  .contact {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .info {
+    max-width: 600px;
+    left: calc(50vw - 300px);
+  }
+  
+  .name {
+    font-size: 2rem;
+  }
+  
+  .skills {
+    font-size: 1.5rem;
+  }
+  
+  .contact {
+    font-size: 1.5rem;
+  }
+  
+  .fa-facebook-square, .fa-tumblr-square {
+    transform: scale(1.5);
+  }
+  
+  .fa-facebook-square:hover, .fa-tumblr-square:hover {
+    color: aqua;
+    transform: scale(1.7);
   }
 }

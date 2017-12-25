@@ -62,4 +62,17 @@
     font-size: 1rem;
     line-height: 1.2rem;
   }
+  
+  .about-title {
+    margin-bottom: 2.5rem;
+    font-size: 1.7rem;
+  }
+  
+  .about-h1, .about-pics-h1 {
+    font-size: 1.2rem;
+  }
+  
+  .about-cont, .about-pics-wrapper {
+    margin-bottom: 2.5rem;
+  }
 }
