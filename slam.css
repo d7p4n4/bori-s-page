@@ -173,4 +173,26 @@
     font-size: 1rem;
     line-height: 1.2rem;
   }
+  
+  @media (min-width: 1200px) {
+    .slam-title {
+      font-size: 2rem;
+    }
+    
+    .slam-h1, .video-title {
+      font-size: 1.5rem;
+    }
+    
+    .slam-info {
+    padding: 1.5rem;
+    margin-bottom: 5rem;
+    max-width: 800px;
+    left: calc(50% - 400px)
+  }
+    
+    .slam-intro {
+      font-size: 1.3rem;
+      line-height: 1.5rem;
+    }
+
 }

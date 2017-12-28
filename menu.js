@@ -54,18 +54,18 @@ $('.info-btn').on('click', function() {
 /* pics */
 
 var wHeight = $('.pics-cont').height();
-  var minus = 8;
   var pageNum = 1;
-
+  var padding = parseInt($('.pics-cont').css('padding').replace('px', ''));
+  
 $('.next-btn').on('click', function() {
   pageNum++;
-  $('.moving-wrapper').css('margin-top', '-=' + (wHeight + minus));
+  $('.moving-wrapper').css('margin-top', '-=' + (wHeight + padding));
   $('.page-number').html(pageNum);
 });
   
 $('.previous-btn').on('click', function() {
   pageNum--;
-  $('.moving-wrapper').css('margin-top', '+=' + (wHeight + minus));
+  $('.moving-wrapper').css('margin-top', '+=' + (wHeight + padding));
    $('.page-number').html(pageNum);
 })
   
