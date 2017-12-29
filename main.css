@@ -64,7 +64,7 @@ header {
   height: auto;
   position: absolute;
   left: 15vw;
-  top: calc(50vh - 25vh);
+  top: calc(50vh - 35vh);
   padding: 1.5rem;
   background-color: rgba(50,60,76,.8);
   color: lightgrey;
@@ -186,7 +186,7 @@ li {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .info {
     max-width: 600px;
     left: calc(50vw - 300px);

@@ -174,7 +174,7 @@
     line-height: 1.2rem;
   }
   
-  @media (min-width: 1200px) {
+  @media (min-width: 1024px) {
     .slam-title {
       font-size: 2rem;
     }
@@ -193,6 +193,42 @@
     .slam-intro {
       font-size: 1.3rem;
       line-height: 1.5rem;
+    }
+    
+    .embed-responsive .embed-responsive-item,
+.embed-responsive iframe,
+.embed-responsive embed,
+.embed-responsive object,
+.embed-responsive video {
+    width: 800px;
+    height: 480px;
+    left: calc(50% - 400px); 
+    }
+    
+  .embed-responsive {
+    width: 800px;
+    max-height: 480px;
+    left: calc(50% - 400px);
+    }
+    
+    .embed-responsive-16by9 {
+    padding-bottom: 40%;
+    }
+  
+    .panel {
+      width: 800px;
+      font-size: 1.3rem;
+      line-height: 1.5rem;
+      left: calc(50% - 400px);
+    }
+    
+    .info-btn {
+      height: 3rem;
+      width: 10rem;
+      font-size: 1.7rem;
+      padding-top: .6rem;
+      margin-bottom: 5rem;
+      left: calc(50% - 400px);
     }
 
 }

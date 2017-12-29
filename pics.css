@@ -25,7 +25,7 @@
   height: 0.5rem;
   overflow: hidden;
   border: 0;
-  z-index: 100;
+  z-index: 10;
 }
 
 .pics-cont {
@@ -189,7 +189,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .pics-h1 {
     font-size: 2rem;
   }
@@ -224,5 +224,10 @@
   
   .picture-hr {
     height: 1.5rem;
+  }
+  
+  .esc-btn {
+    top: 5%;
+    right: 5%;
   }
 }

@@ -73,7 +73,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .about-title {
     font-size: 2rem;
   }
