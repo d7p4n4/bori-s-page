@@ -40,6 +40,7 @@ var btnClass = $(this).attr("rel");
     poemsPageNum++;
     $('.poems-page-number').html(poemsPageNum);
     $('.wrapper' + poemsPageNum).removeClass('hidden');
+    $(window).scrollTop(0);
   });
   
   $('.poems-previous-btn').on('click', function() {
@@ -47,6 +48,7 @@ var btnClass = $(this).attr("rel");
     poemsPageNum--;
     $('.poems-page-number').html(poemsPageNum);
     $('.wrapper' + poemsPageNum).removeClass('hidden');
+    $(window).scrollTop(0);
   });
   
   /* slam */
