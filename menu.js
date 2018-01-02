@@ -31,6 +31,24 @@ var btnClass = $(this).attr("rel");
     })
   })
   
+  /* poems */
+  
+  var poemsPageNum = 1;
+  
+  $('.poems-next-btn').on('click', function() {
+    $('.wrapper' + poemsPageNum).addClass('hidden');
+    poemsPageNum++;
+    $('.poems-page-number').html(poemsPageNum);
+    $('.wrapper' + poemsPageNum).removeClass('hidden');
+  });
+  
+  $('.poems-previous-btn').on('click', function() {
+    $('.wrapper' + poemsPageNum).addClass('hidden');
+    poemsPageNum--;
+    $('.poems-page-number').html(poemsPageNum);
+    $('.wrapper' + poemsPageNum).removeClass('hidden');
+  });
+  
   /* slam */
   
     var sumClick = 0;
