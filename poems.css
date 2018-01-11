@@ -8,7 +8,7 @@
   position: absolute;
 }
 
-.poems-h1, .book-of-poem-h1 {
+.poems-h1, .book-of-poems-h1 {
   color: lightgrey;
   font-family: "Poppins";
   font-size: 1.5rem;
@@ -22,7 +22,7 @@
   left: -2rem;
 }
 
-.poems-cont {
+.poems-cont, .book-of-poems-cont {
   position: relative;
   height:auto;
   width: 80vw;
@@ -107,13 +107,44 @@
   color: lightslategrey;
 }
 
+.book-of-poems-pic {
+  width: 80%;
+  padding-bottom: 2rem;
+}
+
+.book-of-poems-cont {
+  text-align: center;
+  padding: 2rem 0;
+  position: relative;
+  left: 3vw;
+}
+
+.book-info {
+  text-align: left;
+}
+
+.book-links {
+  display: block;
+  color: lightblue;
+  text-align: left;
+  padding-left: 1rem;
+  line-height: 1rem;
+  font-size: 0.8rem;
+  font-family: Dosis;
+  font-weight: bold;
+}
+
+.book-links:hover {
+  color: aqua;
+}
+
 @media (min-width: 720px) {
   .wrapper {
     position: absolute;
     top: 3rem;
   }
   
-  .poems-h1 {
+  .poems-h1, .book-of-poems-h1 {
     font-size: 1.7rem;
     margin-bottom: 2.5rem;
   }
@@ -122,7 +153,7 @@
     font-size: 1.2rem;
   }
   
-  .poem {
+  .poem, .book-links {
     font-size: 1rem;
     line-height: 1.2rem;
   }
@@ -130,6 +161,11 @@
   .poems-cont {
     padding: 1.2rem;
     margin-bottom: 2.5rem;
+  }
+  
+  .book-of-poems-cont {
+    margin-bottom: 2.5rem;
+    left: 2.5rem;
   }
   
   .back {
@@ -141,9 +177,10 @@
 @media (min-width: 1024px) {
   .wrapper {
     padding: 5rem;
+    width: 100%;
   }
   
-  .poems-h1 {
+  .poems-h1, .book-of-poems-h1 {
     font-size: 2rem;
   }
   
@@ -162,7 +199,14 @@
     left: calc(50% - 400px)
   }
   
-  .poem {
+  .book-of-poems-cont {
+    margin-bottom: 5rem;
+    max-width: 800px;
+    left: calc(50% - 400px);
+    padding: 1.5rem;
+  }
+  
+  .poem, .book-links {
     font-size: 1.3rem;
     line-height: 1.5rem;
   }
