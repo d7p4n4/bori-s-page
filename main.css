@@ -108,7 +108,7 @@ a {
   color: lightgrey;
 }
 
- .fa-facebook-square:hover, .fa-tumblr-square:hover {
+ .fa-facebook-square:hover, .fa-tumblr-square:hover, .fa-instagram:hover {
   transform: scale(1.5);
   color: aqua;
 }
@@ -204,11 +204,11 @@ li {
     font-size: 1.5rem;
   }
   
-  .fa-facebook-square, .fa-tumblr-square {
+  .fa-facebook-square, .fa-tumblr-square, .fa-instagram {
     transform: scale(1.5);
   }
   
-  .fa-facebook-square:hover, .fa-tumblr-square:hover {
+  .fa-facebook-square:hover, .fa-tumblr-square:hover, .fa-instagram:hover {
     color: aqua;
     transform: scale(1.7);
   }
